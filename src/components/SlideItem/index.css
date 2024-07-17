@@ -1,0 +1,39 @@
+li {
+  display: flex;
+  justify-content: flex-end;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.slider-index {
+  font-size: 16px;
+  color: #0f172a;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.li-active {
+  background-color: #dbeafe;
+}
+.mini-heading {
+  font-size: 16px;
+}
+
+.mini-description {
+  font-size: 10px;
+}
+
+.mini-card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  width: 200px;
+  box-shadow: 0px 14px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}

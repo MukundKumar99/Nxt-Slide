@@ -1,0 +1,19 @@
+.navbar-bg-container {
+  background-color: #dbeafc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  height: 10vh;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav-title {
+  font-size: 26px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+}
